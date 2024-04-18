@@ -2,22 +2,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-image: url(vitaminok.jpg) 
+    background-image: url(isk.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    width: 700px;
+    width: 800px;
+    text-align: center;
+    transform:translateX(60%);
 }
 h1 {
     text-align: center;
     color: #333;
     font-size: 100px; /* Increase the font size for h1 */
+   
 }
 
 .vitamin h2 {
     color: black;
     font-size: 120px; /* Increase the font size for h2 */
+    
 }
 
 .vitamin p {
     margin-bottom: 60px;
+}
+p{
+    border:solid;
+    
+    border-radius: 10px;
+    background-color: lightblue;
 }
